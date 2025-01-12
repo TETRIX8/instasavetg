@@ -7,7 +7,7 @@ from aiogram.contrib.middlewares.logging import LoggingMiddleware
 from aiogram.utils import executor
 import asyncio
 
-API_TOKEN = '6426030091:AAHYNqZTPL6vuayDyMvpYmFzyHrgkSjvGC4'  # Замените на ваш токен
+API_TOKEN = 'token'  # Замените на ваш токен
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
